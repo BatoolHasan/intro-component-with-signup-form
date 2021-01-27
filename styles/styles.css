@@ -36,7 +36,7 @@ body, input, button, select, textarea {
 }
 
 .container__input img.visible, .container__input label.visible {
-  visibility: visible;
+  display: unset;
 }
 
 .attribution {
@@ -50,7 +50,7 @@ body, input, button, select, textarea {
 }
 
 .container {
-  padding: 5vh 15vw;
+  padding: 7vh 10vw;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% auto;
@@ -108,7 +108,7 @@ body, input, button, select, textarea {
   position: absolute;
   right: 1.5em;
   top: 20%;
-  visibility: hidden;
+  display: none;
 }
 
 .container__input label {
@@ -117,7 +117,7 @@ body, input, button, select, textarea {
   font-size: 0.7rem;
   font-style: italic;
   font-weight: 500;
-  visibility: hidden;
+  display: none;
 }
 
 .container__form {
@@ -184,19 +184,19 @@ body, input, button, select, textarea {
 }
 
 .container__form form input::-webkit-input-placeholder {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .container__form form input:-ms-input-placeholder {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .container__form form input::-ms-input-placeholder {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .container__form form input::placeholder {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .container__form form input.wrongInput {
